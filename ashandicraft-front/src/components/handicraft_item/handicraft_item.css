@@ -1,0 +1,137 @@
+/*--------------------item-card-section starts-------------------*/
+.item-card-section{
+    padding: 20px 15px;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(24 132 66 / 60%);
+    border-radius: 5px;
+    transition: all .2s linear;
+    margin: 15px 15px;
+}
+.item-name {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+.item-name ul {
+    display: flex;
+    justify-content: space-between;
+}
+.item-name p {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+.item-name h2 {
+    font-size: 1.5rem;
+}
+.item-name h1 {
+    font-size: 2.0rem;
+}
+.item-share {
+    font-size: 1.5rem;
+}
+.share-icons ul {
+    display: flex;
+}
+.share-icons li {
+    padding: 10px 10px;
+}
+.icons {
+    width: 50px;
+    height: 50px;
+}
+.item-delivery {
+    padding: 20px 0px 20px 40px;
+    margin-left: 14px;
+    margin-right: -17px;
+    display: flex;
+    background-color: lightblue;
+}
+.item-delivery h2 {
+    padding-top: 5px;
+    font-size: 1.0rem;
+}
+.item-delivery p {
+    margin-top: -10px;
+}
+.item-delivery ul {
+    margin-left: 60px;
+}
+.delivery-input {
+    width: 250px;
+    margin-right: -2px;
+    height: 33px;
+    border-right: 2px solid grey;
+}
+.delivery-btn {
+    background-color: grey;
+    color: white;
+    height: 34px;
+}
+.item-buttons {
+    margin: 20px 0px 20px 14px;
+    padding-left: 30px;
+}
+.item-buttons ul {
+    display: flex;
+}
+.item-buttons li {
+    margin-right: 30px;
+}
+.button {
+    background-color: lightgreen;
+    color: #fff;
+    font-size: 1.0rem;
+    width: 200px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.item-buttons h2 {
+    font-size: 1.0rem;
+    margin-top: 10px;
+}
+.item-specifications {
+    margin-left: 14px;
+    padding-left: 30px;
+}
+.item-specifications li {
+    display: flex;
+    padding: 8px 0px;
+}
+.item-specifications h2 {
+    border-bottom: 1px dotted black;
+    padding-bottom: 10px;
+}
+.item-specifications h3 {
+    margin-left: 110px;
+    font-size: 1.0rem;
+}
+.item-specifications h4 {
+    margin-left: 102px;
+    font-size: 1.0rem;
+}
+.item-specifications h5 {
+    margin-left: 90px;
+    font-size: 1.0rem;
+}
+/*--------------------item-card-section ends-------------------*/
+
+/*--------------------similar-product starts-------------------*/
+.similar-product {
+    font-size: 1.5rem;
+}
+.similar-cards-row {
+    margin: 10px 20px;
+}
+.similar-items-img {
+    height: 200px;
+    width: 195px;
+    margin: 15px 15px;
+    border: 1px solid black;
+    border-radius: 10px !important;
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+.similar-items-img:hover {
+    transform: scale(1.1);
+}
+/*--------------------similar-product ends-------------------*/

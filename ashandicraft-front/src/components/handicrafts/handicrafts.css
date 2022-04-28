@@ -1,0 +1,120 @@
+
+/* -----------------------filter part starts----------------------- */
+.filter-part {
+    background-color: #fff;
+    padding:20px 10px;
+    border-radius: 5px;
+    margin: 0px 10px 0px 0px;
+    box-shadow: 0 0 5px rgb(24 132 66 / 60%);
+}
+.filter-part h3{
+    font-size: 20px;
+    line-height: 32px;
+    color: #0c2266;
+}
+.filter-part h3 span{
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: .7px;
+    color: #8b8b8b;
+}
+.commodity-filter{
+    border-bottom: 2px solid #d8d8d8;
+    padding-bottom: 15px;
+}
+.commodity-filter ul{
+    height: 170px;
+    overflow-x: auto;
+}
+.commodity-filter h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #000;
+}
+.commodity-filter ul li span{
+    font-size: 14px;
+    color: #3d4b5f;
+}
+.offer-filter {
+    padding: 30px 0px;
+    border-bottom: 2px solid #d8d8d8;
+}
+.offer-filter h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #000;
+}
+.offer-filter ul li span{
+    font-size: 14px;
+    color: #3d4b5f;
+}
+.status-filter{
+    border-bottom: 0px solid transparent;
+}
+/* -----------------------filter part ends----------------------- */
+
+/* ------------------------pro-box starts---------------------- */
+.pro-box {
+    padding: 20px 15px;
+    width: 1050px;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(24 132 66 / 60%);
+    border-radius: 5px;
+    transition: all .2s linear;
+    margin-bottom: 15px;
+}
+.pro-box:hover {
+    box-shadow: 0 1px 12px rgba(31,115,212,.6);
+    cursor: pointer;
+}
+.trades-card{
+    padding: 80px 0px;
+}
+.trad-title {
+    font-size: 34px;
+    line-height: 1.16;
+    font-weight: 700;
+    transition: .3s;
+    margin-bottom: 25px;
+    color: #0c2266;
+}  
+.cards-row {
+    margin: 10px 20px;
+}
+.sort {
+    display: inline-flex;
+    border-bottom: 2px solid #d8d8d8;
+    padding: 0px 0px 20px 0px;
+}
+.sort h1 {
+    margin-right: 10px;
+}
+.sort h2 {
+    margin-left: 340px;
+    font-size: 1.0rem;
+    margin-right: 20px;
+}
+.sort-select {
+    width: 200px;
+    border-radius: 100px;
+}
+.sort-icon {
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+.items-img {
+    height: 200px;
+    width: 210px;
+    margin: 15px 15px;
+    border: 1px solid black;
+    border-radius: 10px !important;
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+.items-img:hover {
+    transform: scale(1.1);
+}
+/* -----------------------pro-box ends----------------------- */

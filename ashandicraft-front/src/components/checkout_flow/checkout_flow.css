@@ -1,0 +1,232 @@
+/* ------------------------checkout_flow starts---------------------- */
+.checkout-flow-section {
+    padding: 50px 20px;
+}
+.checkout-flow-box ul {
+    display: flex;
+    margin: 20px 0px;
+}
+.icon-open {
+    padding: 10px 10px;
+    margin: 20px 0px 0px 0px;
+    position: relative;
+    left: 20%;
+    background-color: white;
+    color: grey;
+    box-shadow: 0 0 5px rgb(24 132 66 / 60%);
+    font-size: 20px;
+    border-radius: 5px;
+}
+.flow-collapse {
+    width: 870px;
+    padding-left: 15px;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(24 132 66 / 60%);
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+.mobile-panel ul {
+    display: block;
+}
+.mobile-panel ul li {
+    margin: 20px 0px;
+}
+.mobile-input {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.mobile-btn {
+    width: 400px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #a0b410;
+    color: #fff;
+    border-radius: 5px;
+    border: #a0b410;
+}
+.mobile-btn:hover {
+    background-color: #a0b410;
+    color: #fff;
+    border: #a0b410;
+}
+.address-panel ul {
+    display: inline-block;
+    justify-content: space-between;
+}
+.address-input {
+    margin-right: 20px;
+    width: 370px;
+    border-bottom: 1px solid grey;
+}
+.address-input:hover {
+    border-bottom: 1px solid grey;
+}
+.address-select {
+    margin-right: 20px;
+    width: 400px;
+    border-bottom: 1px solid grey;
+}
+.address-select:hover {
+    border-bottom: 1px solid grey;
+}
+.saveas ul {
+    display: flex;
+}
+.address-radio {
+    margin-right: 20px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.radio-icon {
+    padding-right: 5px;
+}
+.schedule-panel h1 {
+    font-weight: bold;
+}
+.schedule-panel p {
+    font-weight: 400;
+}
+.review-item {
+    display: flex;
+}
+.review-item-img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.review-item ul {
+    display: block;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.review-item h1 {
+    margin-top: -10px;
+}
+.review-item h2 {
+    font-size: 0.8rem;
+}
+.review-item span {
+    margin-left: 10px;
+}
+.review-item-action {
+    display: flex;
+    margin-left: -10px;
+    margin-top: -2px;
+}
+.review-select {
+    width: 70px;
+}
+.review-change-btn {
+    margin-right: 20px;
+    padding: 2px 5px;
+    color: blue;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+    height: 28px;
+}
+.review-change-btn:hover {
+    background-color: blue;
+    color: #fff;
+}  
+.review-payment-btn {
+    width: 300px;
+    height: 40px;
+    margin-left: 525px;
+    font-weight: bold;
+    background-color: #a0b410;
+    color: #fff;
+    border-radius: 5px;
+    border: #a0b410;
+}
+.review-payment-btn:hover {
+    background-color: #a0b410;
+    color: #fff;
+    border: #a0b410;
+}
+.payment-panel {
+    width: 180px;
+    height: 220px;
+    border: 1px solid #edf1f7;
+    border-radius: 10px;
+    background-color: #edf1f7;
+    display: flex;
+}
+.payment-panel ul {
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    padding: 12px 0px 12px 15px;
+    border-left: 5px solid blue;
+}
+.icon-cod {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+.payment-panel h4 {
+    font-weight: bold;
+}
+.icon-payment {
+    width: 80px;
+    height: 80px;
+    margin: 0px 0px 10px 270px;
+}
+.text-payment {
+    text-align: center;
+    font-weight: 600;
+} 
+.payment-btn {
+    width: 250px;
+    height: 40px;
+    margin-left: 190px;
+    margin-top: 20px;
+    background-color: #a0b410;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    border: #a0b410;
+}
+.payment-btn:hover {
+    background-color: #8a9b07;
+    color: #fff;
+    border: #8a9b07;
+}
+.payment-checkout {
+    padding: 20px 0px 0px 0px;
+}
+.safe-payment ul {
+    display: flex;
+    margin-left: -80px;
+    margin-top: 30px;
+}
+.safe-payment p {
+    margin-top: 3px;
+    font-size: 16px;
+}
+.icon-safe {
+    font-size: 2.0rem;
+}
+.ant-input {
+    padding: 20px 12px 4px 11px;
+}
+.ant-select .ant-select-selector {
+    height: 44px;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    height: 80px;
+    font-size: 1.2rem;
+    padding: 25px 0px;
+    font-weight: 600;
+    color: grey;
+}
+/* -----------------------checkout_flow ends----------------------- */
+
+/* -----------------------coupon & amount part starts----------------------- */
+
+/* coupon and amount */
+
+/* -----------------------coupon & amount part ends----------------------- */
