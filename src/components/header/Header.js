@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, Row, Col, Input, Modal, Form, Button } from "antd";
+import { Menu, Row, Col, Input, Modal, Form, Button, Image } from "antd";
 import { Link } from "react-router-dom";
 import {
 	TwitterOutlined,
@@ -16,6 +16,7 @@ import {
 } from "@ant-design/icons";
 import "../../App.css";
 import ApiPath from "../../utils/apiPath";
+import logo from '../../images/logo.jpeg';
 import { http } from "../../utils/http";
 
 const { SubMenu } = Menu;
@@ -70,7 +71,7 @@ const Header = () => {
 							<ul>
 								<li>
 									<a
-										href="https://www.twitter.com/@Krishirishi1"
+										href="tel:9701988141"
 										target="_blank"
 									>
 										<PhoneOutlined />
@@ -78,13 +79,13 @@ const Header = () => {
 								</li>
 								<li>
 									<a
-										href="https://www.twitter.com/@Krishirishi1"
+										href="mailto:ourartstack@gmail.com"
 										target="_blank"
 									>
 										<MailOutlined />
 									</a>
 								</li>
-								<li>
+								{/* <li>
 									<a
 										href="https://www.twitter.com/@Krishirishi1"
 										target="_blank"
@@ -99,23 +100,23 @@ const Header = () => {
 									>
 										<TwitterOutlined />
 									</a>
-								</li>
+								</li> */}
 								<li>
 									<a
-										href="https://www.instagram.com/krishirishi1"
+										href="https://instagram.com/art_stackk?igshid=MzRlODBiNWFlZA=="
 										target="_blank"
 									>
 										<InstagramOutlined />
 									</a>
 								</li>
-								<li>
+								{/* <li>
 									<a
 										href="https://www.facebook.com/Krishirishi0"
 										target="_blank"
 									>
 										<FacebookOutlined />
 									</a>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 					</Col>
@@ -125,19 +126,19 @@ const Header = () => {
 								<li>
 									<a target="_blank">
 										<PhoneOutlined />
-										<span className="menu-icon">+91-7355442998</span>
+										<span className="menu-icon">+91-9701988141</span>
 									</a>
 								</li>
 								<li>
 									<a target="_blank">
 										<MailOutlined />
-										<span className="menu-icon">gharsh929@gmail.com</span>
+										<span className="menu-icon">ourartstack@gmail.com</span>
 									</a>
 								</li>
 							</ul>
 						</div>
 					</Col>
-					<Col xs={0} sm={8} md={8} lg={8} xl={8}>
+					{/* <Col xs={0} sm={8} md={8} lg={8} xl={8}>
 						<div className="menu-first">
 							<Menu mode="horizontal">
 								<Menu.Item key="home">
@@ -195,7 +196,7 @@ const Header = () => {
 												<Form
 													{...layout}
 													name="basic"
-													// onFinish={onFinish}
+												// onFinish={onFinish}
 												>
 													<Form.Item
 														name="mobile"
@@ -330,21 +331,21 @@ const Header = () => {
 								</li>
 							</ul>
 						</div>
-					</Col>
+					</Col> */}
 				</Row>
 			</section>
 			<section className="top-header">
 				<Row>
-					<Col xs={24} sm={8} md={8} lg={8} xl={8}>
+					<Col xs={24} sm={12} md={12} lg={12} xl={12}>
 						<div className="logo">
 							<Link to="#">
 								<h1>
-									<span className="aslogo">AS</span> Handi<span>Craft</span>
+									<Image src={logo} className="aslogo" preview={false} /> Art<span>Stack</span>
 								</h1>
 							</Link>
 						</div>
 					</Col>
-					<Col xs={24} sm={12} md={12} lg={12} xl={12}>
+					{/* <Col xs={24} sm={12} md={12} lg={12} xl={12}>
 						<div className="socal-icons-home">
 							<Menu mode="horizontal">
 								<Menu.Item key="home">
@@ -372,7 +373,7 @@ const Header = () => {
 					<Col xs={24} sm={4} md={4} lg={4} xl={4}>
 						<Input placeholder="Search" className="search" />
 						<DollarCircleOutlined className="shopping-icon" />
-					</Col>
+					</Col> */}
 				</Row>
 			</section>
 		</div>

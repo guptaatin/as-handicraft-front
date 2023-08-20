@@ -35,16 +35,16 @@ const App = () => {
           <div>
             {/* -------------all routes are defined under the switch from react-router-dom------------*/}
             <Switch>
-              <Route exact path="/" render={(props) => <Home {...props} title="Home | ASHandicraft" />} />
-              <Route exact path="/handicrafts" render={(props) => <Handicrafts {...props} title="Handicrafts | ASHandicraft" />} />
-              <Route exact path="/handicraft_item" render={(props) => <Handicraft_item {...props} title="Handicraft_item | ASHandicraft" />} />
-              <Route exact path="/cart" render={(props) => <Cart {...props} title="Cart | ASHandicraft" />} />
-              <Route exact path="/checkout_flow" render={(props) => <Checkout_Flow {...props} title="Checkout_Flow | ASHandicraft" />} />
-              <Route exact path="/order_confirmation" render={(props) => <Order_Confirmation {...props} title="Order_Confirmation | ASHandicraft" />} />
-              <Route exact path="/order_detail" render={(props) => <Order_Detail {...props} title="Order_Detail | ASHandicraft" />} />
-              <Route exact path="/my_account" render={(props) => <My_Account {...props} title="My_Account | ASHandicraft" />} />
-              <Route exact path="/my_orders" render={(props) => <My_Orders {...props} title="My_Orders | ASHandicraft" />} />
-              <Route exact path="/wishlist" render={(props) => <Wishlist {...props} title="Wishlist | ASHandicraft" />} />
+              <Route exact path="/" render={(props) => <Home {...props} title="Home | ArtStack" />} />
+              <Route exact path="/handicrafts" render={(props) => <Handicrafts {...props} title="Handicrafts | ArtStack" />} />
+              <Route exact path="/handicraft_item" render={(props) => <Handicraft_item {...props} title="Handicraft_item | ArtStack" />} />
+              <Route exact path="/cart" render={(props) => <Cart {...props} title="Cart | ArtStack" />} />
+              <Route exact path="/checkout_flow" render={(props) => <Checkout_Flow {...props} title="Checkout_Flow | ArtStack" />} />
+              <Route exact path="/order_confirmation" render={(props) => <Order_Confirmation {...props} title="Order_Confirmation | ArtStack" />} />
+              <Route exact path="/order_detail" render={(props) => <Order_Detail {...props} title="Order_Detail | ArtStack" />} />
+              <Route exact path="/my_account" render={(props) => <My_Account {...props} title="My_Account | ArtStack" />} />
+              <Route exact path="/my_orders" render={(props) => <My_Orders {...props} title="My_Orders | ArtStack" />} />
+              <Route exact path="/wishlist" render={(props) => <Wishlist {...props} title="Wishlist | ArtStack" />} />
               {/* <Route path="*" render={(props) => <Error_page {...props} title="Error 404 | Krishirishi" />} /> */}
             </Switch>
           </div>
@@ -53,7 +53,7 @@ const App = () => {
       </Router>
     </Layout>
   );
-}
+};
 
 /* --------------component App Ends-------------- */
 

@@ -116,7 +116,7 @@ ul {
 .top-header {
   clear: both;
   border-bottom: 1.5px solid #dbdbdb;
-  padding-bottom: 30px;
+  padding-bottom: 150px;
 }
 .top-header .logo {
   display:flex;
@@ -138,6 +138,7 @@ ul {
 .aslogo {
   border: 5px solid #f0f0f0;
   background-color: #77b81e;
+  height: 130px;
   padding: 10px 10px;
   color: #fff;
 }

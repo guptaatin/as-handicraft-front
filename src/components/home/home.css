@@ -79,7 +79,7 @@
 }
 .banner-img {
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     filter: blur(2px);
     -webkit-filter: blur(2px);
 }
@@ -190,8 +190,8 @@
     font-style: italic;
 }
 .gallery-box{
-    margin: auto;
-    width: 380px;
+    margin: 10px;
+    width: 249px;
 }
 
 /*-------------gallery-section ends------------*/

@@ -12,7 +12,7 @@ const Footer = () => {
       <footer className="site-footer">
         <div className="container">
           <Row>
-            <Col xs={24} sm={6} md={12} lg={6} xl={6}>
+            {/* <Col xs={24} sm={6} md={12} lg={6} xl={6}>
               <div className="footer-widget_title">
                 <h2>Explore</h2>
                 <div className="footer-list">
@@ -32,8 +32,8 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-            </Col>
-            <Col xs={24} sm={6} md={12} lg={6} xl={6}>
+            </Col> */}
+            {/* <Col xs={24} sm={6} md={12} lg={6} xl={6}>
               <div className="footer-widget_title">
                 <h2>Useful Links</h2>
                 <div className="footer-list">
@@ -53,20 +53,18 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-            </Col>
+            </Col> */}
             <Col xs={24} sm={6} md={12} lg={6} xl={6}>
               <div className="footer-widget_title">
                 <h2>Contact</h2>
                 <div className="footer-widget_text">
-                  <p className="contact-email">1010A 10th Floor-Levana Cyber Height</p>
-                  <p className="contact-email">Gomti Nagar, Lucknow</p>
-                  <p className="contact-email">info@krishirishi.com</p>
+                  <p className="contact-email">8-1-423/D/111&113, 5th floor door no. 501, Shaikpet, Diamond hills colony, HYDERABAD, TELANGANA, India, 500008</p>
                   <ul>
                     <li>
-                      <Link to="#">info.demo@gmail.com</Link>
+                      <Link to="#">ourartstack@gmail.com</Link>
                     </li>
                     <li>
-                      <Link to="#">91+ 4498340853</Link>
+                      <Link to="#">+91 9701988141</Link>
                     </li>
                   </ul>
                 </div>
@@ -77,15 +75,15 @@ const Footer = () => {
                 <h2>Connect</h2>
                 <div className="footer-socal-icons">
                   <ul>
-                    <li>
+                    {/* <li>
                       <a href="https://www.twitter.com/@Krishirishi1" target="_blank"><TwitterOutlined /></a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://www.instagram.com/krishirishi1" target="_blank"><InstagramOutlined /></a>
+                      <a href="https://instagram.com/art_stackk?igshid=MzRlODBiNWFlZA==" target="_blank"><InstagramOutlined /></a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="https://www.facebook.com/Krishirishi0" target="_blank"><FacebookOutlined /></a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -98,22 +96,22 @@ const Footer = () => {
           <Row>
             <Col xs={24} sm={12} md={12} lg={12} xl={12}>
               <div className="site-footer_bottom_copyright">
-                <p>© Copyrights 2021 - 2022.All Rights Reserved. <Link to="#">ashandicraft.com</Link></p>
+                <p>© Copyrights 2023.All Rights Reserved. <Link to="#">artstack.com</Link></p>
               </div>
             </Col>
-            <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+            {/* <Col xs={24} sm={12} md={12} lg={12} xl={12}>
               <div className="site-footer_bottom_menu">
                 <ul className="list-unstyled">
                   <li><Link to="/privacy_policy">Privacy Policy</Link></li>
                   <li><Link to="/terms">Terms of Use</Link></li>
                 </ul>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
