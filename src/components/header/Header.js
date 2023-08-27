@@ -339,9 +339,8 @@ const Header = () => {
 					<Col xs={24} sm={12} md={12} lg={12} xl={12}>
 						<div className="logo">
 							<Link to="#">
-								<h1>
-									<Image src={logo} className="aslogo" preview={false} /> Art<span>Stack</span>
-								</h1>
+								<Image src={logo} className="aslogo" preview={false} />
+								<h1>Art<span>Stack</span></h1>
 							</Link>
 						</div>
 					</Col>
